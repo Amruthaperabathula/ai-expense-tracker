@@ -55,8 +55,6 @@ npm run dev
 Open in browser
 http://localhost:5173
 
-## 📸 Screenshots
-![Expense Tracker](https://ai-expense-tracker-pink.vercel.app)
 
 ## 🎯 What I Learned
 - Building React applications with hooks (useState)

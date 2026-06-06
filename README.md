@@ -1,16 +1,71 @@
-# React + Vite
+# 🤖 AI Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A smart and beautiful expense tracking web application built with React and powered by Claude AI. Track your daily expenses, visualize spending patterns, and get AI-powered financial insights.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+👉 https://ai-expense-tracker-pink.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+### 📋 Expense Management
+- Add expenses with description, amount, category and date
+- View all expenses in a clean organized list
+- Delete expenses with confirmation prompt
+- 7 categories: Food, Travel, Shopping, Bills, Health, Entertainment, Other
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Visual Analytics
+- Pie chart showing spending distribution by category
+- Bar chart comparing amounts across categories
+- Progress bars showing percentage of total spend
+- Category summary pills with total amounts
 
-## Expanding the ESLint configuration
+### 🤖 AI Assistant
+- Chat with Claude AI about your spending habits
+- Get personalized saving tips and insights
+- Ask questions like "Where am I overspending?"
+- AI analyzes your actual expense data to answer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React (Vite) | Frontend framework |
+| Recharts | Charts and data visualization |
+| Claude AI API | AI powered insights |
+| CSS in JS | Styling |
+
+## 📁 Project Structure
+src/
+└── App.jsx    ← Complete application code
+## 🚀 Run Locally
+
+### Prerequisites
+- Node.js installed
+- npm installed
+
+### Steps
+Clone the repository
+git clone https://github.com/Amruthaperabathula/ai-expense-tracker.git
+Go into the project
+cd ai-expense-tracker
+Install dependencies
+npm install
+Start the app
+npm run dev
+Open in browser
+http://localhost:5173
+
+## 📸 Screenshots
+![Expense Tracker](https://ai-expense-tracker-pink.vercel.app)
+
+## 🎯 What I Learned
+- Building React applications with hooks (useState)
+- Data visualization using Recharts library
+- Integrating Claude AI API for smart features
+- Deploying React apps on Vercel
+- Git and GitHub workflow
+
+## 👩‍💻 Developer
+**Amrutha Perabathula**
+- GitHub: [@Amruthaperabathula](https://github.com/Amruthaperabathula)
+- LinkedIn: [Amrutha Perabathula](https://www.linkedin.com/in/amruthaperabathula)

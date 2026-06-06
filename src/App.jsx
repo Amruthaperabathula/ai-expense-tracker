@@ -122,7 +122,7 @@ export default function ExpenseTracker() {
 
       {/* Header */}
       <div style={{ background: "linear-gradient(135deg, #1A1A2E 0%, #16213E 100%)", padding: "32px 24px 28px", borderBottom: "1px solid #ffffff10" }}>
-        <div style={{ maxWidth: 480, margin: "0 auto" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <p style={{ color: "#ffffff40", fontSize: 12, letterSpacing: 3, textTransform: "uppercase", marginBottom: 6 }}>MY WALLET</p>
           <h1 style={{ fontFamily: "'Syne', sans-serif", fontSize: 28, fontWeight: 800, margin: 0, letterSpacing: -0.5 }}>Expense Tracker</h1>
 
@@ -151,7 +151,7 @@ export default function ExpenseTracker() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 480, margin: "0 auto", padding: "0 16px" }}>
+      <div style={{ maxWidth: "900px", margin: "0 auto", padding: "0 40px" }}>
 
         {/* Tab Switcher — now 3 tabs */}
         <div style={{ display: "flex", gap: 8, marginTop: 20, background: "#1A1A2E", borderRadius: 14, padding: 4 }}>
